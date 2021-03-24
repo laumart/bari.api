@@ -34,11 +34,14 @@ Esse comando baixará as imagens e criará os containers e subirá as aplicações.
 
 - Para documentação e testes/utilização da API, acesse o navegador:
 
-bariapi: http://localhost:5000/swagger/index.html
+bariapi: http://localhost:5000/swagger/index.html.
+
 No método /api/Mensageria/send será possível adicionar uma mensagem na fila helloWorldBari.
+
 No método /api/Mensageria/receive será possível consumir as mensagens da fila retornando uma lista das mensagens.
 
 rabbitmq: http://localhost:15672/#/
+
 Exibe a interface para gerenciamento do RabbitMQ
 
 
