@@ -47,8 +47,9 @@ Exibe a interface para gerenciamento do RabbitMQ
 
 # Referencias:
 
-https://xunit.net
-https://www.youtube.com/watch?v=FcF5iufd2P0
-https://www.rabbitmq.com
-https://github.com/serilog/serilog
+https://xunit.net 
+https://www.youtube.com/watch?v=FcF5iufd2P0 
+https://www.rabbitmq.com 
+https://github.com/serilog/serilog 
+
 
