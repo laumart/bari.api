@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bari.Producer.Test", "Bari.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bari.Consumer.Test", "Bari.Consumer.Test\Bari.Consumer.Test.csproj", "{0388B086-EBD5-4665-AB06-DA40B91C9F19}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6F9286B3-2ED7-48F6-83C5-C056335732BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD2D1312-E932-4C12-9077-E9D7E71C3952} = {6F9286B3-2ED7-48F6-83C5-C056335732BC}
+		{FD745B74-7B62-43E6-B72D-30D92B2D39AA} = {6F9286B3-2ED7-48F6-83C5-C056335732BC}
+		{0388B086-EBD5-4665-AB06-DA40B91C9F19} = {6F9286B3-2ED7-48F6-83C5-C056335732BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B827D348-DA2E-429C-A8CD-AC147A120C57}
